@@ -1,0 +1,81 @@
+body{
+    font-family: 'poppis', sans-serif;
+    background-color: beige;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0056b3;
+}
+
+header{
+    background: linear-gradient(to right,#831bcd, #f9620b);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+section{
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+form input[type="text"]
+form input[type="email"]
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button{
+
+       width: calc(100% - 90px);
+    margin-top: 10px;
+    margin-left: auto;
+    background-image: linear-gradient(to right, #f9620b,#831bcd);;
+    color: #fff ;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-image 0.3s ease;
+}
+
+form button:hover{
+    background-image: linear-gradient(to right, #f9620b,#831bcd);
+}
